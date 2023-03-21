@@ -2,7 +2,8 @@ import React from 'react'
 import "./Navbar.scss"
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import LogoTransparent from "../../images/YamaLogoTransparent.png"
+// import LogoTransparent from "../../images/YamaLogoTransparent.png"
+import LogoTransparent from "../../images/logo.svg"
 
 const Navbar = () => {
     const navRef = useRef();
@@ -13,7 +14,7 @@ const Navbar = () => {
 
     return (
         <header>
-            <img src={LogoTransparent} />
+            <img src={LogoTransparent} alt="Yama Logo" />
             <nav ref={navRef}>
                 <a href="/#">Home</a>
                 <a href="/zubehör">Zubehör</a>
