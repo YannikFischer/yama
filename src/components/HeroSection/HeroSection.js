@@ -20,7 +20,6 @@ const HeroSection = () => {
                 <div className="HeroInfo">Gratis Versand ab 49€</div>
                 <div className="HeroInfo">Lieferung innerhalb von Österreich, Deutschland und Schweiz</div>
             </div>
-            <div className="test" style={{ height: "2000px" }}></div>
         </>
     )
 }
